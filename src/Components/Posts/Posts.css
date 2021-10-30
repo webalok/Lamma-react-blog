@@ -1,0 +1,33 @@
+.rootPosts{
+ display: flex;
+ flex:9;
+}
+.postFeaturedImg{
+ border-radius: 5px;
+ overflow: hidden;
+}
+.postCategory{
+ padding: 5px 0;
+ text-align: center;
+ font-size: 15px;
+}
+.postHeading {
+ text-align: center;
+ padding-bottom: 5px;
+ font-weight: 500;
+}
+.postDescription{
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+ color: #444;
+ padding-top: 10px;
+}
+.postedDate {
+ font-style: italic;
+ font-size: 15px;
+ letter-spacing: 1px;
+ text-align: center;
+}

@@ -1,0 +1,26 @@
+span.sideBarHeading {
+ border-top: 1px solid #e6e6e6;
+ width: 100%;
+ display: block;
+ border-bottom: 1px solid #e6e6e6;
+ text-align: center;
+ padding: 5px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+.sidebar-area-1, .sidebar-area-2, .sidebar-area-3 {
+ margin-bottom: 20px;
+}
+.sideBarCompDesc {
+ padding: 10px 0;
+}
+ul.categoryUl {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+ul.categoryUl li{
+ width: 50%;
+ display: inline-block;
+ padding: 4px 0;
+}

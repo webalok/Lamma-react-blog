@@ -1,0 +1,43 @@
+.container-fluid.rootTopBar {
+ background-color: #F8F9FA;
+ border-bottom: 1px dashed #e6e6e6;
+ position:sticky;
+ width: 100%;
+ top: 0;
+}
+
+.topLeft, .topRight {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.topCenter {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.socialIcon{
+ padding: 0 10px;
+ cursor: pointer;
+ font-size: 1.2em;
+}
+
+.topCenter{
+ font-family: 'Quicksand', sans-serif;
+ font-size: 1.1em;
+ font-weight: bold;
+}
+.searchIcon{
+ cursor: pointer;
+ font-size: 1.2em;
+}
+
+span.profilePic {
+ display: block;
+ width: 45px;
+ height: 45px;
+ margin-right: 10px;
+ border-radius: 50%;
+ overflow: hidden;
+}
