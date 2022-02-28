@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
  return (
@@ -12,10 +13,10 @@ export default function Footer() {
      <div className='col'>
      <div className='text-end'>
       <ul className='footerMenuList'>
-       <li><a href=''> Privacy policy </a></li>
-       <li><a href=''> Shipping policy </a></li>
-       <li><a href=''> Return policy </a></li>
-       <li><a href=''> Sitemap </a></li>
+       <li><Link to="/privacy-policy">  Privacy policy  </Link></li>
+       <li><Link to="/shipping-policy"> Shipping policy </Link></li>
+       <li><Link to="/return-policy">   Return policy   </Link></li>
+       <li><Link to="/sitemap">         Sitemap         </Link></li>
       </ul>
      </div> 
      </div>
